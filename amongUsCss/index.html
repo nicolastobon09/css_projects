@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Among Us CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="sky">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        <h1>
+            <span>E</span>
+            <span>i</span>
+            <span>l</span>
+            <span>e</span>
+            <span>e</span>
+            <span>n</span>
+            <span class="w"></span>
+            <span>w</span>
+            <span>a</span>
+            <span>s</span>
+            <span class="w"></span>
+            <span>t</span>
+            <span>h</span>
+            <span>e</span>
+            <span class="w"></span>
+            <span>i</span>
+            <span>m</span>
+            <span>p</span>
+            <span>o</span>
+            <span>s</span>
+            <span>t</span>
+            <span>e</span>
+            <span>r</span>
+        </h1>
+        <div class="boi">
+            <div class="right-leg"></div>
+            <div class="left-leg"></div>
+            <div class="backpack"></div>
+            <div class="belly"></div>
+            <div class="eye"></div>
+            <div class="left-leg"></div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <filter id="inset" x="-50%" y="-50%" width="200%" height="200%">
+                <feFlood flood-color="black" result="outside-color"/>
+                <feMorphology in="SourceAlpha" operator="dilate" radius="3.5"/>
+                <feComposite in="outside-color" operator="in" result="outside-stroke"/>
+                <feFlood flood-color="#0c9fc4" result="inside-color"/>
+                <feComposite in2="SourceAlpha" operator="in" result="inside-stroke"/>
+                <feMerge>
+                    <feMergeNode in="outside-stroke"/>
+                    <feMergeNode in="inside-stroke"/>
+                </feMerge>
+            </filter>
+        </svg>
+    </body>
+</html>
