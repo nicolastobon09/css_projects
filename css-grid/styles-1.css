@@ -8,10 +8,10 @@
   gap: 20px;
   text-align: right;
   line-height: 150px;
-  place-content: center;
   height: 500px;
 }
 .item {
+  place-self: center;
   padding: .5rem;
   font-size: 2rem;
   color: white;
